@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/app_background7"
+    android:layout_height="match_parent">
+
+   //怎么设置头像
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_marginTop="130dp">
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="265dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="HL"-->
+<!--            android:textSize="22sp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginLeft="20dp"-->
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:padding="15dp">
+        //#00000000表示背景全透明
+
+        <Button
+            android:id="@+id/btn_main_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="智能全屋"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_main_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="自动饮品"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_main_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="安全检测"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_main_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="防盗系统"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_main_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="环境"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
